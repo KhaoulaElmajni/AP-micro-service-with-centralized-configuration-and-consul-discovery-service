@@ -5,6 +5,8 @@ import me.elmajni.customerservice.repositories.CustomerRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
+import org.springframework.context.annotation.Bean;
 
 import java.util.List;
 
@@ -15,6 +17,7 @@ public class CustomerServiceApplication {
 		SpringApplication.run(CustomerServiceApplication.class, args);
 	}
 
+	@Bean
 	CommandLineRunner start(CustomerRepository customerRepository){
 		return args -> {
 			customerRepository.saveAll(List.of(
