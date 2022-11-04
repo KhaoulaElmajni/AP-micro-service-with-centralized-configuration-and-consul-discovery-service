@@ -29,5 +29,5 @@ public class Order {
     private Customer customer;
 
     @OneToMany(mappedBy = "order")
-    private List<ProductItems> productItems;
+    private List<ProductItem> productItems;
 }

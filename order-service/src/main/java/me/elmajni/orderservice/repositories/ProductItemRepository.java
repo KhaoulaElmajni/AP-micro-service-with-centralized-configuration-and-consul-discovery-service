@@ -1,10 +1,10 @@
 package me.elmajni.orderservice.repositories;
 
-import me.elmajni.orderservice.entities.ProductItems;
+import me.elmajni.orderservice.entities.ProductItem;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
 @RepositoryRestResource
-public interface ProductItemRepository extends JpaRepository<ProductItems,Long> {
+public interface ProductItemRepository extends JpaRepository<ProductItem,Long> {
 
 }
