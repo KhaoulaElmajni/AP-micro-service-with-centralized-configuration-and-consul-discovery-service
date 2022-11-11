@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.Map;
 
 @RestController
-@RefreshScope //pour rafraichir le changement
+@RefreshScope //pour rafraichir le changement de la configuration
 public class ConsulConfigController {
 
     @Autowired
@@ -30,6 +30,7 @@ public class ConsulConfigController {
 
     @GetMapping(path = "/myConfig")
     public Map<String,Object> myConfig(){
-        return Map.of("consulConfig",myConsulConfig,"vaultConfig",myVaultConfig);
+        return Map.of("consulConfig",myConsulConfig,
+                "vaultConfig",myVaultConfig);
     }
 }

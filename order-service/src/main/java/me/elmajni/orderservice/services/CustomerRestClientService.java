@@ -15,4 +15,6 @@ public interface CustomerRestClientService {
 
     @GetMapping(path = "/customers?projection=fullCustomer")
     PagedModel<Customer> allCustomers();
+
+
 }

@@ -12,6 +12,7 @@
         <module name="order-service" />
         <module name="customer-service" />
         <module name="gateway-service" />
+        <module name="notification-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +20,7 @@
       <module name="customer-service" target="17" />
       <module name="gateway-service" target="17" />
       <module name="inventory-service" target="17" />
+      <module name="notification-service" target="17" />
       <module name="order-service" target="17" />
     </bytecodeTargetLevel>
   </component>
@@ -28,6 +30,7 @@
       <module name="customer-service" options="-parameters" />
       <module name="gateway-service" options="-parameters" />
       <module name="inventory-service" options="-parameters" />
+      <module name="notification-service" options="-parameters" />
       <module name="order-service" options="-parameters" />
     </option>
   </component>
