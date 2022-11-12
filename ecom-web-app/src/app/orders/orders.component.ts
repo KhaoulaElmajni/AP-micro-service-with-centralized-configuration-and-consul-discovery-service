@@ -9,7 +9,7 @@ import {ActivatedRoute, Router} from "@angular/router";
 })
 export class OrdersComponent implements OnInit {
   orders : any;
-  customerId! : number;
+  customerId!:number;
   constructor(private http: HttpClient,
               private router:Router,
               private route: ActivatedRoute) {
@@ -17,7 +17,8 @@ export class OrdersComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.http.get("http://localhost:9999/order-service/orders/search/byCustomerId?projection=fullOrder&customerId="+this.customerId).subscribe({
+    this.http.get("http://localhost:9999/order-service/orders/search/byCustomerId?projection=fullOrder&customerId="+this.customerId)
+      .subscribe({
       next : (data)=>{
         this.orders = data;
       },
