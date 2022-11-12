@@ -43,7 +43,16 @@ order service
 
 ![](https://i.imgur.com/DQ7RoBY.png)
 
-![](https://i.imgur.com/EiCzLsT.png)
 
+configuration avec VAULT
+![](https://i.imgur.com/Q5QZR2x.png)
 
-![](https://i.imgur.com/YoO8WJu.png)
+![](https://i.imgur.com/6EWfN5o.png)
+
+![](https://i.imgur.com/QM1azoh.png)
+![](https://i.imgur.com/iVX8sK6.png)
+![](https://i.imgur.com/JJ5jyo6.png)
+![](https://i.imgur.com/GZIX9fd.png)
+
+aprés la configuration par consul config et vault config
+![](https://i.imgur.com/ZPADaoS.png)
