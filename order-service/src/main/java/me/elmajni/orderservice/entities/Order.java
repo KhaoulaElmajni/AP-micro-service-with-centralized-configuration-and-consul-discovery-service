@@ -30,4 +30,11 @@ public class Order {
 
     @OneToMany(mappedBy = "order")
     private List<ProductItem> productItems;
+
+
+    public double getTotal(){
+        return productItems.stream()
+                .mapToDouble(ProductItem::getTotal).sum();
+    }
+
 }
