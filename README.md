@@ -56,3 +56,9 @@ configuration avec VAULT
 
 aprés la configuration par consul config et vault config
 ![](https://i.imgur.com/ZPADaoS.png)
+
+ZipKin + Sleuth
+
+![](https://i.imgur.com/A3rzrw4.png)
+![](https://i.imgur.com/uNxbyP7.png)
+![](https://i.imgur.com/zToOfNO.png)
