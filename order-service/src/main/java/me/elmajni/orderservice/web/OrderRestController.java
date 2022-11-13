@@ -1,5 +1,6 @@
 package me.elmajni.orderservice.web;
 
+import me.elmajni.orderservice.OrderServiceApplication;
 import me.elmajni.orderservice.entities.Order;
 import me.elmajni.orderservice.models.Customer;
 import me.elmajni.orderservice.models.Product;
@@ -12,9 +13,14 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 @RestController
 //@RequestMapping("/api")
 public class OrderRestController {
+    private static final Logger LOG = Logger.getLogger(OrderServiceApplication.class.getName());
+
     private OrderRepository orderRepository;
     private ProductItemRepository productItemRepository;
     private CustomerRestClientService customerRestClientService;
@@ -32,6 +38,7 @@ public class OrderRestController {
 
     @GetMapping("/fullOrder/{id}")
     public Order getOrder(@PathVariable Long id){
+        LOG.log(Level.INFO, "Index API is calling");
         Order order = orderRepository.findById(id).get();
         Customer customer = customerRestClientService.customerById(order.getCustomerId());
         order.setCustomer(customer);
