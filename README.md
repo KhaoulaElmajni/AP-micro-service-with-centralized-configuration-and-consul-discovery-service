@@ -168,6 +168,25 @@ ___
 ![](https://i.imgur.com/zToOfNO.png)
 ---
 
+
+# <span style="color:green "> Frontend avec Angular </span>
+
+![](https://i.imgur.com/Ntqmv5E.png)
+
+> [name=elmajnikhaoula]La liste des produits
+
+![](https://i.imgur.com/9na1dt8.png)
+
+> [name=elmajnikhaoula]La liste des clients
+
+![](https://i.imgur.com/lybwmmH.png)
+
+> [name=elmajnikhaoula]La liste des factures par client
+
+![](https://i.imgur.com/l3hpiQV.png)
+
+> [name=elmajnikhaoula]Les détails d'une facture d'un client
+
 # <span style="color:green">3.Les Technologies utilisées</span>
  #### <span style="color:#0036ad"> 1.Java</span>
  * <strong style="color:dark">* <strong style="color:dark">Java est le langage de choix pour créer des applications à l'aide de code managé qui peut s'exécuter sur des appareils mobiles.
@@ -234,11 +253,12 @@ Plus précisément, Spring Cloud Sleuth…
 *voir également à propos de [Spring Cloud Sleuth](https://spring.io/projects/spring-cloud-sleuth) :link:
 
 
-#### <span style="color:#0036ad"> 10.Spring Cloud ِConfig</span>
- * <strong style="color:dark">Spring Cloud Config fournit une prise en charge côté serveur et côté client pour la configuration externalisée dans un système distribué. Avec Config Server, vous disposez d'un emplacement central pour gérer les propriétés externes des applications dans tous les environnements.
+#### <span style="color:#0036ad"> 11.Angular</span>
+ * <strong style="color:dark">Angular est un cadre de conception d'applications et une plate-forme de développement permettant de créer des applications d'une seule page efficaces et sophistiquées.
     
 
-*voir également à propos de [Spring Cloud Config](https://docs.spring.io/spring-cloud-config/docs/current/reference/html/) :link:
+*voir également à propos de [Angular](https://angular.io/docs) :link:
+
 
     
 * <strong style="color: dark ; opacity: 0.80">Enfin nous tenons à remercier le seul et unique, notre professeur Mr YOUSFI Mohamed *Docteur & professeur à l'ENSET MEDIA* pour son soutien et son encouragement envers nous, aussi pour nous avoir donné cette opportunité d'améliorer nos compétences et de connaître les nouvelles technologies comme celles qui nous avons travaillé.
